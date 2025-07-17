@@ -40,11 +40,11 @@ Concepts learned on Places 365:
 
 It was further analysed what what concepts the models learned in each layer and what what concepts were learned by the multiple units. The following graphs compare the number of units that leaned each concept on each of the layers. Concepts that were learned by 3 or less units are not included in the graphs to increase readability.
 
-![](.task1/images/layer2.png)
+![](./task1/images/layer2.png)
 
-![](.task1/images/layer3.png)
+![](./task1/images/layer3.png)
 
-![](.task1/images/layer4.png)
+![](./task1/images/layer4.png)
 
 One can see that the complexity of the learned concepts increases with the depth of the layer. Most of the concepts leaned by units on layer 2 are very basic like patterns (dotted, checker, ...) or colors (green, yellow, ...) while units on the deeper layer 4 learned way more complex concepts like specific scenes (bedrooms, bathrooms, ...) or objects (aircraft, sheep, ...).
 
