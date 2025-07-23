@@ -171,7 +171,7 @@ Of course. Here is the final report, updated to integrate the quantitative IoU s
 
 ---
 
-### Task 4 **Comparative Analysis of Grad-CAM and LIME with IoU Scores**
+## Task 4 - Comparative Analysis of Grad-CAM and LIME with IoU Scores
 
 This report analyzes and compares two model interpretability techniques, Grad-CAM and LIME, based on their application to ten ImageNet images. The analysis is supported by quantitative Intersection over Union (IoU) scores to precisely measure the degree of agreement between the two methods' explanations.
 
