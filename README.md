@@ -58,7 +58,9 @@ The goal of Task 2 is to visualize and analyze which parts of each of the 10 p
 2. **AblationCAM** – systematically “ablates” (masks out) each feature map in the target layer to measure its effect on the output score, producing a more diffuse attribution map.  
 3. **ScoreCAM** – generates attribution by scoring the effect of each upsampled activation map on the output, yielding sharper, higher‑contrast explanations.
 
+
 The report of the task is in `reports/task2.pdf`
+The output of the task is in `task2`. It contains 2 folder: `output_gradcam_mask_v2` which contains greyscale heatmap of the `GradCAM` and `output_gradcam_v2` contains output of each CAM methods separted by the directory.
 
 ## Task 3 - LIME
 
@@ -112,4 +114,5 @@ Of course. Here is the final report, updated to integrate the quantitative IoU s
 
 The goal of Task 4 is to compare and analyze the alignment between Grad-CAM and LIME, two fundamentally different explainability methods applied to the same 10 ImageNet images. The analysis is supported by quantitative Intersection over Union (IoU) scores to precisely measure the degree of agreement between the two methods' explanations.
 
+The notebook is present in `task4` directory.
 The full report is available in `reports/task4.pdf`.
